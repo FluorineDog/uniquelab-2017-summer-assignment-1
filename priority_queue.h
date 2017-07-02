@@ -6,7 +6,7 @@ public:
   size_t size() const;
   const T& top() const;
   void push(const T& val);
-  T pop();
+  void pop();
 private:
   // TODO
 };
