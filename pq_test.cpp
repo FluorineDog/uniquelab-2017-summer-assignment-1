@@ -15,7 +15,7 @@ namespace {
     std::priority_queue<double> std_pq;
     Priority_queue pq;
 
-    for (unsigned i = 0; i != 10000)
+    for (unsigned i = 0; i != 10000; ++i)
     {
       double num = dis(e);
       std_pq.push(num);
