@@ -46,7 +46,7 @@ namespace {
       nonstd_pq.push(0.0f);
     }
     EXPECT_EQ(std_pq.top(),nonstd_pq.top());
-    EXPECT_EQ(std_pq.size(),nonstd_pq.top());
+    EXPECT_EQ(std_pq.size(),nonstd_pq.size());
     for(int i=0;i<20000;i++){
       EXPECT_EQ(std_pq.top(),nonstd_pq.top());
       std_pq.pop();
