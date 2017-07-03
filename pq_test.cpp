@@ -9,7 +9,7 @@ namespace {
   {
     std::random_device rand_dev;
 
-    std::default_random_engine e(rand_dev());
+    std::default_random_engine e(810);
     std::uniform_real_distribution<double> dis(0, 100);
 
     std::priority_queue<double> std_pq;
