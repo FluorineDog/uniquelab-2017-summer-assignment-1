@@ -1,5 +1,5 @@
 #include <queue>
-#include <include/gtest/gtest.h>
+#include "include/gtest/gtest.h"
 
 #include "set.h"
 #include "priority_queue.h"
@@ -9,8 +9,8 @@ namespace {
   {
     std::priority_queue<int> prio_q;
 
-    q.push(1);
+    prio_q.push(1);
 
-    EXPECT_EQ(1, q.top());
+    EXPECT_EQ(1, prio_q.top());
   }
 }
