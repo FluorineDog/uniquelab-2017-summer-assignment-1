@@ -1,11 +1,19 @@
-----------------
-UniqueLab Summer Camp Assignment 0
----------------- 
+# UniqueLab 2018 Spring Assignment 1, Part 2
 
-**实现 C++ STL 中的 priority_queue 和 set. 无需实现template泛型，钦定类型为 T = double**
-1. priorty_queue 需要实现 empty(), size(), top(), push(const T&), pop()方法
-2. set 需要实现insert(const T&), erase(const T&), clear(), count(const T&), empty(), size(). 钦定数据结构内核为**左倾红黑树(LLRB)**
+## Implement set in C++ STL.
+You are expected to implement: 
+* insert(const T&)
+* erase(const T&)
+* clear()
+* count(const T&) // return 1 if element exists, 0 otherwise
+* empty()
+* size()
 
-**所有接口以及功能参照 STL 文档**
+Please refer to STL documents for details. 
 
-本次任务时间仅一周，且部分新人C++需要重头学，因此无需实现迭代器, 大多数函数返回值改为void.
+Since time is short, you needn't implement 
+features of templates or iterators. Just let T = double 
+and change return values of most functions to void instead.
+
+However, you must use **LLRB** for this assignment. 
+ Any other balanced BSTs are not acceptable. 
